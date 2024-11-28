@@ -15,8 +15,8 @@ class Car:
         self.surface = pygame.transform.scale(self.surface, (100, 100))
         self.rotate_surface = self.surface
         self.pos = [700, 650]
-        self.angle = 0
-        self.speed = 0
+        self.angle = 10
+        self.speed = 20
         self.center = [self.pos[0] + 50, self.pos[1] + 50]
         self.radars = []
         self.radars_for_draw = []
